@@ -1,38 +1,36 @@
-.App {
-  text-align: center;
+.meetingOn{
+  background-image: url("./img/bg.png");
+  background-color: #cccccc;
+  background-size: fill;
+}
+.meetingOff{
+  background-image: url("./img/bgoff.png");
+  background-color: #20CD5B;
+  background-size: fill;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.moh1{
+  color: #FFFBFB;
+  font-family: 'Plus Jakarta Sans', sans-serif;
+  font-size: 100px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.mop1
+{
+color: #dedede;
+font-family: 'Plus Jakarta Sans', sans-serif;
+font-size: 43px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.mop2{
+color: #FFF;
+font-family: 'Plus Jakarta Sans', sans-serif;
+font-size: 48px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
 }
