@@ -1,4 +1,5 @@
 import {initializeApp} from 'firebase/app'
+import { getDatabase } from "firebase/database";
 function useFirebase()
 {
     const firebaseConfig = {
@@ -9,9 +10,11 @@ function useFirebase()
         messagingSenderId: process.env.REACT_APP_MESSAGINGSENDERID,
         appId: process.env.REACT_APP_APPID,
         measurementId: process.env.REACT_APP_MEASUREMENTID,
+        databaseURL:process.env.REACT_APP_DATABASE_URL
     };
     const app=initializeApp(firebaseConfig)
-    return app
+    const database =getDatabase(app);
+    return database
 }
 
 export {useFirebase}
