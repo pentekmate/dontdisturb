@@ -21,15 +21,15 @@ function App() {
   
   
 
-  const {meeting,from,to}=data
+  const {meeting,from,to,msg}=data
   
   if(meeting===false){
     return(
-      <MeetingOff from={from} to={to}></MeetingOff>
+      <MeetingOff from={from} msg={msg} to={to}></MeetingOff>
     )
   }
   return (
-   <MeetingOn to={to}></MeetingOn>
+   <MeetingOn msg={msg} from={from} to={to}></MeetingOn>
   );
 }
 

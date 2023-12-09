@@ -1,4 +1,4 @@
-function MeetingOff({from,to}){
+function MeetingOff({from,to,msg}){
    
     return(
         <div className="meetingOff d-flex container-lg  vw-100 vh-100">
@@ -12,6 +12,7 @@ function MeetingOff({from,to}){
                 <p className="mop2">
                 Következő meeting: <span>{from}</span>-<span>{to}</span>
                 </p>
+                {msg && <p className="msg">{msg}</p>}
                 
             </div>
         </div>
