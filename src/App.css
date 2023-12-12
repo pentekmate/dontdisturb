@@ -1,15 +1,18 @@
-.meetingOn{
-  background-image: url("./img/bg.png");
-  background-color: #cccccc;
-  background-size: fill;
-}
 .meetingOff{
   background-image: url("./img/bgoff.png");
   background-color: #20CD5B;
-  background-size: fill;
+  background-size: 100%;
+  background-position: center;
+}
+.meetingOn{
+  background-image: url("./img/bg.png");
+  background-size: cover;
+  background-position: center;
 }
 .msg{
-  color:white;
+  color:rgb(233, 230, 230);
+  font-size: 37px;
+  font-family: 'Plus Jakarta Sans', sans-serif;
 }
 
 .moh1{
